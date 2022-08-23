@@ -54,7 +54,6 @@ jobs:
       - name: Kubernetes Set Context
         uses: Azure/aks-set-context@v3
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
           resource-group: mslearn-gh-pipelines-5237
           cluster-name: contoso-video
 
